@@ -1,0 +1,222 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	min-width:1000px;        
+	width: auto !important;  
+	width:1000px;  
+	background-color: white;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";             
+}
+#TOP
+{
+	color:rgb(0,0,0,0.7);
+	background-color: rgb(120, 120, 120, 0.2);
+	padding:6px;
+}
+#Form
+{
+	margin-left: 450px;
+	margin-right: 450px;
+	margin-top: 50px;
+	background-color: transparent;
+	padding:50px;
+	border-radius: 10px;
+	font-size: 25px;
+	color:white;
+}
+.inputbtn
+{
+	width:400px;
+	font-size: 20px;
+	background-color:gray; 
+	opacity:0.8;
+	color:white;
+	border-radius: 5px;
+	padding:10px;
+	border:0;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.inputbtn:hover
+{
+	background-color:black; 
+	color:white;
+}
+.txtbox
+{
+	width:400px;
+	font-size: 20px;
+	color:rgb(0,0,0,0.5);
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	background-color: transparent;
+	outline: 0;
+	border:0;
+	border-bottom: 1px solid black;
+}
+#tblForm
+{
+	margin-top: 25px;
+	border-collapse: collapse;
+	background-color: white;
+}
+table
+{
+	background-color: transparent;
+	border:0;
+	outline:0;
+}
+#button
+{
+	margin-top:15px;
+}
+#btnBack
+{
+	margin-top:10px;
+	text-decoration: none;
+	padding:10px;
+	background-color:gray; 
+	opacity:0.8;
+	color:white;
+	border-radius: 5px;
+	border:0;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+#btnBack:hover
+{
+	background-color:black; 
+	color:white;
+}
+label
+{
+	color:gray;
+}
+.Btndropdown
+{
+	background-color: transparent;
+	border:0;
+	outline: 0;
+}
+.Divnavi
+{
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	float:right;
+	padding:0;
+	border:0;
+	margin-left: 1115px;
+}
+.DivnaviDrop
+{
+	display: none;
+	position: absolute;
+	right: 0;
+}
+.DivnaviDrop a
+{
+	text-decoration: none;
+	background-color: transparent;
+	color:black;
+	display: block;
+	border:0;
+	outline: 0;
+	padding: 10px;
+	opacity:0.5;
+	transition: 1s;
+	float:left;
+	width:100%;
+}
+.DivnaviDrop a:hover
+{
+	color:white;
+	background-color: black;
+}
+.Divnavi:hover .DivnaviDrop
+{
+	display: block;
+}
+.BottomMost
+{
+	background: transparent;
+	padding: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	padding: 20px;
+	position: relative;
+}
+.BottomMost span
+{
+	color:rgb(0,0,0,0.4);
+}
+#PopUp
+{
+	width:350px;
+	background-color: white;
+	display:none;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color:rgb(0,0,0,0.8);
+	position: absolute;
+	z-index:99999999;
+	height: 300px;
+	border-radius: 10px;
+	text-align: center;
+	padding:10px;
+	border:1px solid white;
+	box-shadow: 0 0 15px rgb(0,0,0,0.5);
+	overflow: hidden;
+	border:2px solid rgb(20, 105, 46);
+}
+#PopOverlay
+{
+	display:none;
+	position: fixed;
+	top:0;
+	left:0;
+	opacity: 0.9;
+	background-color: #fff;
+	width: 100%;
+	z-index:10;
+}
+.okay
+{
+	background-color: rgb(0,148,255);
+	color: white;
+	padding: 10px 30px;
+	outline: 0;
+	border:0;
+	display: inline-block;
+	cursor: pointer;
+	top: 90%;
+	position: fixed;
+	left:50%;
+	transform: translate(-50%, -50%);	
+	position:absolute;	
+}
+.okay:hover
+{
+	background-color: blue;
+}
+#PopUp p
+{
+	padding:10px;
+	border-radius: 10px 10px 10px 10px;
+	color: red;
+	font-size: 30px;
+	letter-spacing: 3px;
+	font-weight: bolder;
+}
+#PopUp span
+{
+	color: rgb(20, 105, 46);
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+}
+u
+{
+	color:red;
+}

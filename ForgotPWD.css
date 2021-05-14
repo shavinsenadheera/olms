@@ -1,0 +1,111 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	background-color: gray;
+	background-size: cover;
+	text-align: left;
+	min-width:1000px;        
+	width: auto !important;  
+	width:1000px;            
+}
+.txtBox
+{
+	width:300px;
+	height:20px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	border:none;
+	border-bottom: 1px solid gray;
+	outline: none;
+	background-color: transparent;
+	color:white;
+}
+#divForm
+{
+	margin-top: 100px;
+	margin-left: 540px;
+	margin-right: 540px;
+	text-align: left;
+	width:380px;
+	padding:40px;
+	height: auto;
+	background-color: black;
+	transition: all 4s ease-in-out;
+	outline:0;
+	border: 0;
+	border-radius: 20px;
+	font-size: 25px;
+	color:white;
+}
+#TOP
+{
+	color:burlywood;
+	background-color: darkcyan;
+	padding:6px;
+}
+#tblForm
+{
+	border-spacing: 30px;
+}
+.inputbtn
+{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 20px;
+	color:white;
+	background-color:green;
+	border:0px;
+	padding:5px;
+	border-radius: 5px;
+	width:150px;
+}
+.inputbtn:hover
+{
+	color:aqua;
+	background-color:darkslategray;
+}
+.Btndropdown
+{
+	background-color: transparent;
+	border:0;
+	outline: 0;
+}
+.Divnavi
+{
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	float:right;
+}
+.DivnaviDrop
+{
+	display: none;
+	position: absolute;
+	right: 0;
+}
+.DivnaviDrop a
+{
+	text-decoration: none;
+	background-color: transparent;
+	color:black;
+	display: block;
+	border:0;
+	outline: 0;
+	padding: 10px;
+	opacity:0.5;
+	transition: 1s;
+	float:left;
+	width:100%;
+}
+.DivnaviDrop a:hover
+{
+	color:white;
+	background-color: black;
+}
+.Divnavi:hover .DivnaviDrop
+{
+	display: block;
+}

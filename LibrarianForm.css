@@ -1,0 +1,93 @@
+@charset "utf-8";
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	min-width:1000px;        
+	width: auto !important;  
+	width:1000px;  
+	background-color: rgb(255, 255, 255, 0.5);
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";      
+}
+#Form
+{
+	margin-left: 200px;
+	margin-right: 400px;
+}
+#TOP
+{
+	color:rgb(0,0,0,0.7);
+	background-color: rgb(120, 120, 120, 0.2);
+	padding:6px;
+}	
+#tblForm
+{
+	margin-top: 100px;
+	text-align: center;
+	color:white;
+	border-spacing: 10px;
+	padding:20px;
+}
+#Userdiv
+{
+	margin-top:10px;
+	color:black;
+	background-color:transparent;
+	padding:1px;
+	text-align: left;
+	opacity:0.9;
+}
+#Userp
+{
+	font-size: 18px;
+	font-style: bold;
+}
+#btnlogout
+{
+	text-decoration: none;
+	padding:10px;
+	background-color:gray; 
+	color:white;
+	border-radius: 5px;
+	outline: 0;
+	border: 0;
+	opacity: 0.5;
+	margin-left:1100px;
+}
+#btnlogout:hover
+{
+	background-color:purple; 
+	color:white;
+}
+.btn
+{
+	border:0;
+	background-color: transparent;
+	outline: 0;
+}
+#txt
+{
+	color:black;
+	font-weight: bolder;
+	opacity: 0.5;
+}
+img
+{
+	opacity:0.5;
+}
+.BottomMost
+{
+	background: transparent;
+	padding: 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 200px;
+	position: relative;
+}
+.BottomMost span
+{
+	color:rgb(0,0,0,0.4);
+}

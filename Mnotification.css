@@ -1,0 +1,293 @@
+body
+{
+	min-width:1000px;        
+	width: auto !important;  
+	width:1000px;            
+}
+*
+{
+	box-sizing: border-box;
+}
+#TOPdiv
+{
+	background-color: rgb(99,135,184);
+	color:white;
+	padding:10px;
+	border-radius: 10px;
+}
+#a
+{
+	color:red;
+}
+#b
+{
+	color:orange;
+}
+#c
+{
+	color:yellow;
+}
+#d
+{
+	color:green;
+}
+#e
+{
+	color:blue;
+}
+#f
+{
+	color:purple;
+}
+#g
+{
+	color:indigo;
+}
+#TOPbotdiv
+{
+	background-color: rgb(36,54,79);
+	color:yellow;
+	padding:10px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+#tblTOPbotdiv
+{
+	width:100%;
+	text-align: left;
+}
+#logUser
+{
+	text-align: right;
+}
+#maindiv
+{
+	overflow-x: auto;
+}
+#slideLeftdiv
+{
+	background-color: rgb(36,54,79);
+	color:yellow;
+	padding:10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	width:21%;
+	float: left;
+}
+
+#tblslideLeftdiv td
+{
+	padding: 4px;
+}
+button
+{
+	padding: 15px;
+	width:290px;
+	background-color: inherit;
+	color:white;
+	border:0;
+	outline: 0;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 10px;
+}
+button:hover
+{
+	background-color: green;
+	color:white;
+	box-shadow: currentColor;
+}
+#logOUT
+{
+	padding: 15px;
+	width:290px;
+	background-color: inherit;
+	color:white;
+	border:0;
+	outline: 0;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#logOUT:hover
+{
+	background-color: red;
+	color:white;
+	box-shadow: currentColor;
+}
+#slideMiddlediv
+{
+	margin-right: 70px;
+	margin-left: 10px;
+	background-color: white;
+	color:black;
+	padding:10px;
+	margin-top: 60px;
+	border-radius: 10px;
+	font-size: 16px;
+	width:50%;
+	float: left;
+	height: 500px;
+
+}
+#txt
+{
+	color:green;
+	font-weight: bold;
+}
+#slideRightdiv
+{
+	background-color: rgb(36,54,79);
+	color:white;
+	padding:10px;
+	margin-top: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	width:22%;
+	float: left;
+	height:350px;
+}
+#slideRightdiv h3
+{
+	color:red;
+	text-align: center;
+}
+
+#footerdiv
+{
+	background-color: rgb(36,54,79);
+	color:gray;
+	padding:10px;
+	border-radius: 10px;
+}
+#news
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+.mySlides 
+{
+	display: none;
+}
+#slide 
+{
+	vertical-align: middle;
+	height:200px;
+	width:100%;
+}
+.slideshow-container 
+{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.caption
+{
+	font-size: 16px;
+	color:gold;
+	text-align: center;
+}
+.numbertext
+{
+	color:gray;
+}
+#tblslideMiddlediv td
+{
+	border:1px;
+}
+.combobox
+{
+	padding:10px;
+	width: 555px;
+	background-color:rgb(0,0,64);
+	color:white;
+	font-size: 20px;
+	border:0;
+	outline: 0;
+	border-radius: 10px;
+}
+.btnSearch
+{
+	padding:10px;
+	background-color:rgb(0,0,64);
+	color: white;
+	font-size: 20px;
+	border:0;
+	outline: 0;
+	border-radius: 10px;	
+}
+.btnSearch:hover
+{
+	background-color: brown;
+	color: white;
+}
+#tblSearch td
+{
+	border:1px;
+	text-align: left;
+	padding:10px;
+	background-color:orange;
+	font-size: 18px;
+	width:300px;
+	border-radius: 10px;
+}
+#tblSearch td:hover
+{
+	background-color:green;
+	color:white;
+}
+#tblSearchNoti td
+{
+	border:1px;
+	text-align: left;
+	padding:10px;
+	background-color:green;
+	color:white;
+	font-size: 18px;
+	width:300px;
+	border-radius: 10px;
+}
+#tblSearchNoti td:hover
+{
+	background-color:orange;
+}
+#nonew
+{
+	background-color:brown;
+	color:white;
+	padding:10px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+th
+{
+	background-color: gray;
+	color: white;
+	font-size: 18px;
+	width:300px;
+	border-radius: 10px;
+	border:1px;
+	text-align: left;
+	padding:10px;
+}
+a
+{
+	text-decoration: none;
+	color:white;
+}
+input[type=submit]
+{
+	background-color: gray;
+	color:white;
+	border-radius: 10px;
+	padding: 10px;
+	border:0;
+	outline: 0;
+	width: 600px;
+}
+input[type=submit]:hover
+{
+	background-color: black;
+	color:white;
+}	

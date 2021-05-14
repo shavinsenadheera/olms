@@ -1,0 +1,154 @@
+@charset "utf-8"
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	min-width:1000px;        
+	width: auto !important;  
+	width:1000px;  
+	background-color: white;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";             
+}
+#tblForm
+{
+	margin-top: 100px;
+	border-collapse: collapse;
+	background-color: white;
+}
+table
+{
+	background-color: transparent;
+	border:0;
+	outline:0;
+	width:100%;
+	text-align: center;
+}
+th
+{
+	background-color: black;
+	color:white;
+	border-collapse: collapse;
+	padding:10px;
+	font-size: 16px;
+	border:0;
+	outline: 0;
+}
+tr:nth-child(odd)
+{
+	background-color: transparent;
+
+}
+tr:nth-child(even)
+{
+	background-color: gray;
+}
+td
+{
+	margin-top: 12px;
+	background-color: transparent;
+	color:black;
+	outline: 0;
+	border-collapse: collapse;
+	padding:13px;
+	font-size: 14px;
+}
+#TOP
+{
+	color:rgb(0,0,0,0.7);
+	background-color: rgb(120, 120, 120, 0.2);
+	padding:6px;
+}
+#button
+{
+	margin-top:15px;
+}
+#btnBack
+{
+	margin-top:10px;
+	text-decoration: none;
+	padding:10px;
+	background-color:gray; 
+	opacity:0.8;
+	color:white;
+	border-radius: 5px;
+	border:0;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+#btnBack:hover
+{
+	background-color:black; 
+	color:white;
+}
+a
+{
+	text-decoration: none;
+	padding:8px;
+	background-color:transparent; 
+	opacity:0.8;
+	color:black;
+	border-radius: 5px;
+	border:0;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+a:hover
+{
+	background-color:black; 
+	color:white;
+}
+.Btndropdown
+{
+	background-color: transparent;
+	border:0;
+	outline: 0;
+}
+.Divnavi
+{
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	float:right;
+}
+.DivnaviDrop
+{
+	display: none;
+	position: absolute;
+	right: 0;
+}
+.DivnaviDrop a
+{
+	text-decoration: none;
+	background-color: transparent;
+	color:black;
+	display: block;
+	border:0;
+	outline: 0;
+	padding: 10px;
+	opacity:0.5;
+	transition: 1s;
+	float:left;
+	width:100%;
+}
+.DivnaviDrop a:hover
+{
+	color:white;
+	background-color: black;
+}
+.Divnavi:hover .DivnaviDrop
+{
+	display: block;
+}
+.BottomMost
+{
+	background: transparent;
+	font-size: 18px;
+	border-radius: 10px;
+	padding: 20px;
+	position: relative;
+	margin-top: 10px;
+}
+.BottomMost span
+{
+	color:rgb(0,0,0,0.4);
+}
